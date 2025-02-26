@@ -3,7 +3,7 @@ import React from "react";
 
 export const Contact = () => {
   return (
-    <section id="contact" className="section-padding">
+    <section id="contact" className="section-padding animate-fade-in">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-8">Contact</h2>
         <div className="glass rounded-lg p-8">
