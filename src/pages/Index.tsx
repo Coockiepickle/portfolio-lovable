@@ -1,13 +1,22 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Layout } from "@/components/Layout";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <Layout>
+      <div className="container mx-auto px-6">
+        <section className="min-h-screen flex items-center justify-center animate-fade-in">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              Welcome to My Portfolio
+            </h1>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              A passionate developer crafting beautiful and functional web experiences.
+            </p>
+          </div>
+        </section>
       </div>
-    </div>
+    </Layout>
   );
 };
 
