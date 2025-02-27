@@ -36,7 +36,7 @@ export const Projects = () => {
                 {project.tech.map((tech, techIndex) => (
                   <span
                     key={techIndex}
-                    className="px-3 py-1 bg-accent/10 rounded-full text-sm"
+                    className="px-3 py-1 bg-accent/10 hover:bg-accent hover:text-white rounded-full text-sm transition-colors duration-300"
                   >
                     {tech}
                   </span>
