@@ -28,7 +28,7 @@ export const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-background rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow glass"
+              className="bg-background rounded-lg p-6 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 glass"
             >
               <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
               <p className="text-muted-foreground mb-4">{project.description}</p>
