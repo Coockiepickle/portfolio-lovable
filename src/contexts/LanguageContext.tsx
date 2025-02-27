@@ -1,7 +1,7 @@
 
 import React, { createContext, useContext, useState } from "react";
 
-type Language = "en" | "es" | "fr";
+type Language = "en" | "fr";
 
 interface LanguageContextType {
   language: Language;
@@ -15,11 +15,6 @@ const translations = {
     projects: "Projects",
     contact: "Contact",
     // Add more translations as needed
-  },
-  es: {
-    about: "Sobre mí",
-    projects: "Proyectos",
-    contact: "Contacto",
   },
   fr: {
     about: "À propos",

@@ -20,12 +20,6 @@ export const LanguageSelector = () => {
         </button>
         <button
           className="w-full px-4 py-2 text-left hover:bg-accent/10 transition-colors"
-          onClick={() => setLanguage("es")}
-        >
-          Español
-        </button>
-        <button
-          className="w-full px-4 py-2 text-left hover:bg-accent/10 transition-colors"
           onClick={() => setLanguage("fr")}
         >
           Français
