@@ -31,6 +31,12 @@ This is a portfolio I did using lovable, it shows who I am, what are the courses
 
 - Separate the projects in two categories (personal and professional)
 
+- Add real content to "About" and "Projects"
+
+- Add links section
+
+- Make contact form working with Netlify
+
 
 ## Deployment
 
