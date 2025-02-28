@@ -1,6 +1,9 @@
 
 import { Layout } from "@/components/Layout";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { About } from "@/components/About";
+import { Projects } from "@/components/Projects";
+import { Contact } from "@/components/Contact";
 
 const Index = () => {
   const { translations } = useLanguage();
@@ -8,7 +11,7 @@ const Index = () => {
   return (
     <Layout>
       <div className="min-h-screen">
-        <section className="min-h-screen flex items-center justify-center animate-fade-in">
+        <section id="home" className="min-h-screen flex items-center justify-center animate-fade-in">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               {translations.welcomeTitle}
@@ -18,6 +21,10 @@ const Index = () => {
             </p>
           </div>
         </section>
+        
+        <About />
+        <Projects />
+        <Contact />
       </div>
     </Layout>
   );
