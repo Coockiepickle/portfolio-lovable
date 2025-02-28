@@ -14,7 +14,7 @@ export const LanguageSelector = () => {
   return (
     <div className="relative">
       <button 
-        className="flex items-center space-x-2 p-2 rounded-lg hover:bg-accent/10 transition-colors"
+        className="flex items-center justify-center space-x-2 p-2 rounded-lg hover:bg-accent/10 transition-colors"
         onClick={toggleLanguage}
       >
         {language === "en" ? (
