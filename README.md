@@ -2,11 +2,15 @@
 # Presentation
 
 This is a portfolio I did using lovable, it shows who I am, what are the courses I have taken, my personal and professionnal projects, a contact form and links to my social medias.
+
+
 ## Tech Stack
 
 **Client:** TypeScript, Tailwind CSS, Vite, React, shadcn-ui
 
 **Server:** Netlify, Github, Lovable
+
+
 ## Features
 
 - Light/dark mode toggle
@@ -55,6 +59,8 @@ npm install
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
+
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
@@ -100,6 +106,7 @@ npm run dev
 - Select the "Codespaces" tab.
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
+
 
 ## Authors
 
