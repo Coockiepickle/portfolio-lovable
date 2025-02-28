@@ -1,24 +1,21 @@
 
 import React from "react";
-import { useLanguage } from "@/contexts/LanguageContext";
 
 export const Projects = () => {
-  const { translations } = useLanguage();
-
   const projects = [
     {
-      title: translations.ecommercePlatform,
-      description: translations.ecommerceDesc,
+      title: "E-commerce Platform",
+      description: "Une plateforme de commerce électronique moderne construite avec Next.js et Stripe",
       tech: ["React", "Next.js", "Stripe", "Tailwind CSS"],
     },
     {
-      title: translations.managementApp,
-      description: translations.managementDesc,
+      title: "Application de Gestion",
+      description: "Solution complète de gestion d'entreprise avec tableaux de bord en temps réel",
       tech: ["Vue.js", "Node.js", "PostgreSQL", "Docker"],
     },
     {
-      title: translations.mobileApp,
-      description: translations.mobileDesc,
+      title: "Application Mobile",
+      description: "Application mobile cross-platform pour la gestion de tâches",
       tech: ["React Native", "Firebase", "Redux", "TypeScript"],
     },
   ];
@@ -26,7 +23,7 @@ export const Projects = () => {
   return (
     <section id="projects" className="section-padding bg-accent/5 animate-fade-in">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">{translations.projectsTitle}</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12">Projets</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div

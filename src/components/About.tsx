@@ -1,21 +1,20 @@
 
 import React from "react";
-import { useLanguage } from "@/contexts/LanguageContext";
 
 export const About = () => {
-  const { translations } = useLanguage();
-
   return (
     <section id="about" className="section-padding animate-fade-in">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8">{translations.aboutTitle}</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-8">À propos de moi</h2>
         <div className="space-y-6">
           <p className="text-lg text-muted-foreground">
-            {translations.aboutDescription}
+            Je suis un développeur passionné par la création d'expériences web innovantes et intuitives. 
+            Avec une expertise en développement front-end et back-end, je m'efforce de créer des solutions 
+            qui combinent performance et esthétique.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold">{translations.skills}</h3>
+              <h3 className="text-xl font-semibold">Compétences</h3>
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2">
                   <span className="w-2 h-2 bg-accent rounded-full"></span>
@@ -32,19 +31,19 @@ export const About = () => {
               </ul>
             </div>
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold">{translations.experience}</h3>
+              <h3 className="text-xl font-semibold">Expérience</h3>
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2">
                   <span className="w-2 h-2 bg-accent rounded-full"></span>
-                  <span>{translations.yearsWebDev}</span>
+                  <span>5+ ans en développement web</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <span className="w-2 h-2 bg-accent rounded-full"></span>
-                  <span>{translations.yearsCloud}</span>
+                  <span>3+ ans en architecture cloud</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <span className="w-2 h-2 bg-accent rounded-full"></span>
-                  <span>{translations.techLeadership}</span>
+                  <span>Leadership technique</span>
                 </li>
               </ul>
             </div>
