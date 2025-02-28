@@ -98,6 +98,6 @@ npm run dev
 ## Authors
 
 - [@coockiepickle](https://www.github.com/coockiepickle)
-- Using [Readme.so](readme.so)
+- Using [Readme.so](https://readme.so)
 
 
