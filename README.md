@@ -1,7 +1,7 @@
 
 # Presentation
 
-This is a portfolio I did using lovable, it shows who I am, what are the courses I have taken, my personal and professionnal projects, a contact form and links to my social medias.
+This is a portfolio I did using lovable, it shows who I am, what are the courses I have taken, my personal and professional projects, a contact form and links to my social medias.
 
 
 ## Tech Stack
