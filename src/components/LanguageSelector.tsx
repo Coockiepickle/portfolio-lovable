@@ -14,20 +14,23 @@ export const LanguageSelector = () => {
   return (
     <div className="relative">
       <button 
-        className="flex items-center justify-center space-x-2 p-2 rounded-lg hover:bg-accent/10 transition-colors"
+        className="flex items-center justify-center space-x-2 p-2 rounded-lg hover:bg-accent/10 transition-colors overflow-hidden"
         onClick={toggleLanguage}
+        style={{ width: '80px' }}
       >
-        {language === "en" ? (
-          <>
-            <span className="uppercase">EN</span>
-            <Globe className="h-5 w-5 transition-transform duration-300" />
-          </>
-        ) : (
-          <>
-            <Globe className="h-5 w-5 transition-transform duration-300" />
-            <span className="uppercase">FR</span>
-          </>
-        )}
+        <div className="flex items-center justify-center w-full relative">
+          {language === "en" ? (
+            <>
+              <span className="uppercase transition-transform duration-300">EN</span>
+              <Globe className="h-5 w-5 ml-2 transition-all duration-300" />
+            </>
+          ) : (
+            <>
+              <Globe className="h-5 w-5 mr-2 transition-all duration-300" />
+              <span className="uppercase transition-transform duration-300">FR</span>
+            </>
+          )}
+        </div>
       </button>
       
       <div className="absolute right-0 mt-2 w-32 py-2 bg-background border rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity glass">
