@@ -4,19 +4,19 @@ import React from "react";
 export const Projects = () => {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "Une plateforme de commerce électronique moderne construite avec Next.js et Stripe",
-      tech: ["React", "Next.js", "Stripe", "Tailwind CSS"],
+      title: "S.P.P. (Système de Pentesting Portatif",
+      description: "Une carte Raspberry Pi standalone pour auditer et réaliser des tests de pénétration sur un réseau",
+      tech: ["RPi", "Debian", "Lynis", "ZPhisher", "PhishMailer", "VNC"],
     },
     {
-      title: "Application de Gestion",
-      description: "Solution complète de gestion d'entreprise avec tableaux de bord en temps réel",
-      tech: ["Vue.js", "Node.js", "PostgreSQL", "Docker"],
+      title: "Projet 2",
+      description: "Description",
+      tech: ["Tech 1", "Tech 2", "Tech 3", "Tech 4"],
     },
     {
-      title: "Application Mobile",
-      description: "Application mobile cross-platform pour la gestion de tâches",
-      tech: ["React Native", "Firebase", "Redux", "TypeScript"],
+      title: "Projet 3",
+      description: "Description",
+      tech: ["Tech 1", "Tech 2", "Tech 3", "Tech 4"],
     },
   ];
 
