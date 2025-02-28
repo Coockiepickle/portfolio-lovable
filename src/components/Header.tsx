@@ -12,7 +12,7 @@ export const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
           <Link to="/" className="border border-border rounded-md px-4 py-2 hover:text-accent hover:scale-105 transition-all duration-200">
-            Acueil
+            Accueil
           </Link>
           <div className="flex items-center space-x-8">
             <Link 
