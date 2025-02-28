@@ -42,6 +42,10 @@ This is a portfolio I did using lovable, it shows who I am, what are the courses
 
 - Make contact form working with Netlify
 
+- Add a logo
+
+- Change the name and the logo in the tab
+
 
 ## Deployment
 
