@@ -11,7 +11,7 @@ const Index = () => {
               Bienvenue sur Mon Portfolio
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Un développeur passionné qui crée des expériences web belles et fonctionnelles.
+              Un étudiant passionné avec pour objectif d'aider les entreprises dans la mise en place et la protection de leur SI.
             </p>
           </div>
         </section>
