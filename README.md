@@ -32,7 +32,9 @@ This is a portfolio I did using lovable, it shows who I am, what are the courses
 
 - Slide animation when clicking the language switch
 
-- Change the language of all the site
+- Change the language of all the site when clicking the switch
+
+- Put everything on one page
 
 - Separate the projects in two categories (personal and professional)
 
