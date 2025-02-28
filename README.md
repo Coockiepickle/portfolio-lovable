@@ -21,10 +21,11 @@ This is a portfolio I did using lovable, it shows who I am, what are the courses
 
 ## Acknowledgements
 
+ - [The portfolio](https://dreynaud.netlify.app)
  - [Lovable Project](https://lovable.dev/projects/eb6b3923-2c5b-44bc-9a56-3d54b9aeb621)
  - [Netlify Overview page](https://app.netlify.com/sites/dreynaud/overview)
  - [Typescript OpenClassroom Course](https://openclassrooms.com/fr/courses/8039116-decouvrez-typescript)
-  - [Typescript Codecademy Course](https://www.codecademy.com/learn/learn-typescript)
+ - [Typescript Codecademy Course](https://www.codecademy.com/learn/learn-typescript)
 
 
 ## Roadmap
